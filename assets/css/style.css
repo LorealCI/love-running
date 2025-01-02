@@ -186,6 +186,13 @@ Each div will expand to fill the space on its row*/
     color: #3a3a3a;
     padding: 5%
 }
+/* Media query: phones or larger (576 px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }  
+ }
 
 /* Media query: tablets or larger (768 px and up) */
 @media screen and (min-width: 768px) {
@@ -234,12 +241,20 @@ Each div will expand to fill the space on its row*/
         text-align: end;
         align-self: flex-end;
     }
+    /* Gallery Page */
+    #photos {
+        column-count: 3;
+    }
     }
 
     /* Media query: desktops or larger (992 px and up) */
 @media screen and (min-width: 992px) {
     menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    /* Gallery Page */
+    #photos {
+        column-count: 4;
     }
 }
 /* Media query: desktops or larger (1200 px and up) */
