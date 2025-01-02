@@ -75,7 +75,8 @@ nav {
 /* main */
 main {background-color: pink;
 /*make the main element grow to fill the available space */
-flex: 1 0 auto;}
+flex: 1 0 auto;
+margin-top: 47px;}
 
 /* footer */
 footer {background-color: coral;}
