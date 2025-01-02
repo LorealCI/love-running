@@ -79,7 +79,18 @@ flex: 1 0 auto;
 margin-top: 47px;}
 
 /* footer */
-footer {background-color: coral;}
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+ }
+ #social-networks i {
+    font-size: 160%;
+    color: #3a3a3a;
+    padding: 5%
+}
 
 /* Media query: tablets or larger (768 px and up) */
 @media screen and (min-width: 768px) {
