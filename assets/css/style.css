@@ -163,6 +163,15 @@ Each div will expand to fill the space on its row*/
 #times h3 {
     color: #fafafa;
 }
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
 
 /* footer */
 #social-networks {
